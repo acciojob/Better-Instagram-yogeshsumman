@@ -3,6 +3,8 @@
   height: 300px;
   width: 200px;
   margin: 20px;
+  background-size: cover;
+  background-position: center;
 }
 
 #div2 {
@@ -10,6 +12,8 @@
   height: 300px;
   width: 200px;
   margin: 20px;
+  background-size: cover;
+  background-position: center;
 }
 
 #div3 {
@@ -17,6 +21,8 @@
   height: 300px;
   width: 200px;
   margin: 20px;
+  background-size: cover;
+  background-position: center;
 }
 
 #div4 {
@@ -24,6 +30,8 @@
   height: 300px;
   width: 200px;
   margin: 20px;
+  background-size: cover;
+  background-position: center;
 }
 
 #div5 {
@@ -31,6 +39,8 @@
   height: 300px;
   width: 200px;
   margin: 20px;
+  background-size: cover;
+  background-position: center;
 }
 
 #div6 {
@@ -38,26 +48,27 @@
   height: 300px;
   width: 200px;
   margin: 20px;
-}
-
-div.container {
-  border: 5px solid #555;
+  background-size: cover;
+  background-position: center;
 }
 
 .flex {
   display: flex;
+  flex-wrap: wrap;
   justify-content: center;
   align-items: center;
 }
 
-.selected {
-  border: 5px solid rgb(0, 195, 255);
+.image {
+  cursor: move;
+  background-repeat: no-repeat;
 }
 
-p {
-  text-align: center;
+.image.dragging {
+  opacity: 0.5;
+  border: 2px solid #000;
 }
 
-button {
-  margin: 20px;
+.image.over {
+  border: 2px dashed #00f;
 }
